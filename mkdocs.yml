@@ -1,0 +1,141 @@
+site_name: Polivox Documentation
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+docs_dir: docs
+
+markdown_extensions:
+  - mdx_breakless_lists
+
+plugins:
+  - search
+  - roamlinks
+
+nav:
+  - Home: index.md
+
+  - Platform Architecture & Conventions:
+    - Overview: "0. Platform Architecture & Conventions/Platform Architecture & Conventions.md"
+    - Folder Structure: "0. Platform Architecture & Conventions/Folder Structure.md"
+    - UI Standards: "0. Platform Architecture & Conventions/UI Standards.md"
+
+  - Platform Overview:
+    - Overview: "1. Platform Overview/Platform Overview.md"
+    - Core Capabilities: "1. Platform Overview/Core Capabilities.md"
+    - Technology Stack: "1. Platform Overview/Technology Stack.md"
+    - Important Concepts:
+      - Initial Processing: "1. Platform Overview/Important Concepts/Initial Processing.md"
+      - Initial Processing QA: "1. Platform Overview/Important Concepts/Initial Processing QA.md"
+      - Noise Processing: "1. Platform Overview/Important Concepts/Noise Processing.md"
+      - Noise Processing QA: "1. Platform Overview/Important Concepts/Noise Processing QA.md"
+      - Language Pairs: "1. Platform Overview/Important Concepts/Language Pairs.md"
+      - Topics: "1. Platform Overview/Important Concepts/Topics.md"
+
+  - User Roles & Responsibilities:
+    - Overview: "2. User Roles & Responsibilities/User Roles & Responsibilities.md"
+    - User Roles Summary: "2. User Roles & Responsibilities/User Roles - Summary.md"
+    - Project Manager (PM): "2. User Roles & Responsibilities/Project Manager (PM).md"
+    - Speaker (SP): "2. User Roles & Responsibilities/Speaker (SP).md"
+    - Quality Checker (QC): "2. User Roles & Responsibilities/Quality Checker (QC).md"
+    - Media Manager (MM): "2. User Roles & Responsibilities/Media Manager (MM).md"
+    - Annotator (AN): "2. User Roles & Responsibilities/Annotator (AN).md"
+    - Annotator QA (AQ): "2. User Roles & Responsibilities/Annotator QA (AQ).md"
+
+  - Authentication & Demo Mode:
+    - Overview: "3. Authentication & Demo Mode/Authentication & Demo Mode.md"
+
+  - Project Creation Wizard:
+    - Overview: "4. Project Creation Wizard/Project Creation Wizard.md"
+    - Steps:
+      - Basic Information: "4. Project Creation Wizard/Steps/Basic Information.md"
+      - Speaker Management: "4. Project Creation Wizard/Steps/Speaker Management.md"
+      - Topic Management: "4. Project Creation Wizard/Steps/Topic Management.md"
+      - Workflow Builder: "4. Project Creation Wizard/Steps/Workflow Builder.md"
+    - Workflow Builder:
+      - Overview: "4. Project Creation Wizard/Workflow Builder/Workflow Builder.md"
+      - Architecture Overview: "4. Project Creation Wizard/Workflow Builder/Architecture Overview.md"
+      - Workflow Node Types: "4. Project Creation Wizard/Workflow Builder/Workflow Node Types.md"
+      - Node Data Structure: "4. Project Creation Wizard/Workflow Builder/Node Data Structure.md"
+      - Node Visual Rendering: "4. Project Creation Wizard/Workflow Builder/Node Visual Rendering.md"
+      - Node Palette (Drag Source): "4. Project Creation Wizard/Workflow Builder/Node Palette (Drag Source).md"
+      - Property Panel (Node Configuration): "4. Project Creation Wizard/Workflow Builder/Property Panel (Node Configuration).md"
+      - Canvas Interactions: "4. Project Creation Wizard/Workflow Builder/Canvas Interactions.md"
+      - Condition Branching System: "4. Project Creation Wizard/Workflow Builder/Condition Branching System.md"
+      - Staff Assignment: "4. Project Creation Wizard/Workflow Builder/Staff Assignment.md"
+      - State Management & Data Flow: "4. Project Creation Wizard/Workflow Builder/State Management & Data Flow.md"
+
+  - Project Management:
+    - Overview: "5. Project Management/Project Management.md"
+    - Project List: "5. Project Management/Project List.md"
+    - Edit Project Dialog: "5. Project Management/Edit Project Dialog.md"
+    - Manage Team Dialog: "5. Project Management/Manage Team Dialog.md"
+
+  - Session Management & Status Flow:
+    - Overview: "6. Session Management & Status Flow/Session Management & Status Flow.md"
+    - Session List View: "6. Session Management & Status Flow/Session List View.md"
+    - Session Detail View: "6. Session Management & Status Flow/Session Detail View.md"
+    - Complete Session Status Flow: "6. Session Management & Status Flow/Complete Session Status Flow.md"
+
+  - Speaker & Staff Management:
+    - Overview: "7. Speaker & Staff Management/Speaker & Staff Management.md"
+    - Speaker Management: "7. Speaker & Staff Management/Speaker Management.md"
+    - Staff Management: "7. Speaker & Staff Management/Staff Management.md"
+
+  - Export to Google Drive:
+    - Overview: "8. Export to Google Drive/Export to Google Drive.md"
+    - Google Drive Configuration: "8. Export to Google Drive/Google Drive Configuration.md"
+    - Session Filtering & Selection: "8. Export to Google Drive/Session Filtering & Selection.md"
+    - Export Options: "8. Export to Google Drive/Export Options.md"
+    - Export Deliverables: "8. Export to Google Drive/Export Deliverables.md"
+
+  - Speaker Matching Algorithm:
+    - Overview: "9. Speaker Matching Algorithm/Speaker Matching Algorithm.md"
+    - Matching Paradigms: "9. Speaker Matching Algorithm/Matching Paradigms.md"
+    - "The Selection Logic (The Three Filters)": "9. Speaker Matching Algorithm/The Selection Logic (The Three Filters).md"
+    - "The Ranking & Scoring System": "9. Speaker Matching Algorithm/The Ranking & Scoring System.md"
+
+  - Speaker - Detailed:
+    - Overview: "10. Speaker - Detailed/Speaker - Detailed.md"
+    - Dashboard: "10. Speaker - Detailed/Dashboard.md"
+    - Onboarding Page: "10. Speaker - Detailed/Onboarding Page.md"
+    - Profile Page: "10. Speaker - Detailed/Profile Page.md"
+    - Availability Page: "10. Speaker - Detailed/Availability Page.md"
+    - Sessions Page: "10. Speaker - Detailed/Sessions Page.md"
+
+  - Quality Checker - Detailed:
+    - Overview: "11. Quality Checker - Detailed/Quality Checker - Detailed.md"
+    - Dashboard: "11. Quality Checker - Detailed/Dashboard.md"
+    - "Initial QC (QC1) Page": "11. Quality Checker - Detailed/Initial QC (QC1) Page.md"
+    - "Noise QC (QC2) Page": "11. Quality Checker - Detailed/Noise QC (QC2) Page.md"
+
+  - Media Manager - Detailed:
+    - Overview: "12. Media Manager - Detailed/Media Manager - Detailed.md"
+    - Dashboard: "12. Media Manager - Detailed/Dashboard.md"
+    - Initial Processing Page: "12. Media Manager - Detailed/Initial Processing Page.md"
+    - Noise Processing Page: "12. Media Manager - Detailed/Noise Processing Page.md"
+
+  - Annotator - Detailed:
+    - Overview: "13. Annotator - Detailed/Annotator - Detailed.md"
+    - Dashboard: "13. Annotator - Detailed/Dashboard.md"
+    - Annotation Tasks Page: "13. Annotator - Detailed/Annotation Tasks Page.md"
+    - Annotator Workflow: "13. Annotator - Detailed/Annotator Workflow.md"
+
+  - Annotator QA - Detailed:
+    - Overview: "14. Annotator QA - Detailed/Annotator QA - Detailed.md"
+    - Dashboard: "14. Annotator QA - Detailed/Dashboard.md"
+    - QA Tasks Page: "14. Annotator QA - Detailed/QA Tasks Page.md"
+    - QA Review Workflow: "14. Annotator QA - Detailed/QA Review Workflow.md"
