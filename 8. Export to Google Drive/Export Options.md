@@ -1,0 +1,3 @@
+- **Individual Review** — Click a session row to open a review dialog with audio and metadata before exporting
+- **Bulk Export** — Select multiple sessions and click 'Export N Sessions' to batch export
+- **Project Export** — When filtering by a specific project, an 'Export Project' button exports all ready sessions for that project at once

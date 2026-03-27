@@ -1,0 +1,4 @@
+- `app/`: Page routes (Project Manager, Speaker, etc.).
+- `components/shared/`: Reusable logic like `AudioTrackPlayer` and `StarRating`.
+- `utils/mock/`: Contains the JSON-style arrays for `projects`, `sessions`, `speakers`, and `staff`.
+- `utils/types/`: TypeScript interfaces (e.g., `interface Session { id: string; status: SessionStatus; ... }`).

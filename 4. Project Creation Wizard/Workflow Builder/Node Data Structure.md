@@ -1,0 +1,11 @@
+Every workflow node stores its configuration in a WorkflowNodeData object with the following fields:
+- **role** — The node type identifier (e.g., 'speaker', 'quality-checker', 'condition')
+- **label** — User-editable display name for the node
+- **description** — Optional description text (not available for condition nodes)
+- **tasks** — Array of task/responsibility strings assigned to this node
+- **acceptableSpeakerCounts** — Recording Room only — array of valid speaker counts (e.g., [2, 6, 10])
+- **qcSubtype** — Quality Checker only — 'initial-processing-qa' or 'noise-qa'
+- **mmSubtype** — Media Manager only — 'initial-processing' or 'noise-processing'
+- **checklist** — Quality Checker only — array of checklist items (id, label, required flag)
+- **conditionConfig** — Condition only — branching field and path definitions
+- **assignedStaff** — Array of assigned staff members (id, name, role)

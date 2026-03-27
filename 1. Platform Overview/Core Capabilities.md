@@ -1,0 +1,7 @@
+- Project creation with language pair configuration, topic management, and visual workflow design
+- Speaker and staff database management with 5-star performance ratings and flagging
+- Role-based access control with 6 distinct user roles, each with dedicated dashboards and task queues
+- Multi-stage quality control pipeline (QC1 for initial audio, QC2 for noise-processed audio, Annotation QA)
+- Audio processing pipeline with initial processing and noise injection stages
+- Annotation and transcription workflow with QA review loops
+- Batch export of completed sessions to Google Drive

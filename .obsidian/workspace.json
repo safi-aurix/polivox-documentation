@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "d71438c67785ddf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc2a27b07ef56402",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3efab5590fbbea1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. Platform Architecture & Conventions/UI Standards.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UI Standards"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c04d494961199d32",
+    "type": "split",
+    "children": [
+      {
+        "id": "9299ef533bc87ac1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74e9fbcbc4bc8142",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "18931a178211b35f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a016a2f54e5b3c64",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af1037fb6e94dbca",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eeb716c85c18bb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b789531d0f5c41aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "db20e69dd5f094f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "8436db169265c1f3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d45f699ffce6453",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c0fbe102d89ef613",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3efab5590fbbea1b",
+  "lastOpenFiles": [
+    "0. Platform Architecture & Conventions/Folder Structure.md",
+    "0. Platform Architecture & Conventions/Platform Architecture & Conventions.md",
+    "14. Annotator QA - Detailed/Annotator QA - Detailed.md",
+    "14. Annotator QA - Detailed/QA Review Workflow.md",
+    "14. Annotator QA - Detailed/QA Tasks Page.md",
+    "14. Annotator QA - Detailed/Dashboard.md",
+    "Images/Annotator QA - Detailed/annotator_qa_detailed_view.png",
+    "Images/Annotator QA - Detailed/feedback_thread.png",
+    "Images/Annotator QA - Detailed/annotation_turns.png",
+    "Images/Annotator QA - Detailed/annotation_quality_checklist.png",
+    "Images/Annotator QA - Detailed/overlap_detection.png",
+    "Images/Annotator QA - Detailed/annotator_qa_sessions.png",
+    "Images/Annotator QA - Detailed/annotator_qa_dashboard.png",
+    "Images/Annotator QA - Detailed/Untitled.md",
+    "Images/Annotator QA - Detailed",
+    "13. Annotator - Detailed/Dashboard.md",
+    "13. Annotator - Detailed/Annotator - Detailed.md",
+    "13. Annotator - Detailed/Annotator Workflow.md",
+    "14. Annotator QA - Detailed",
+    "13. Annotator - Detailed/Annotation Tasks Page.md",
+    "Images/Annotator - Detailed/annotation_detailed_view.png",
+    "Images/Annotator - Detailed/transcript_reference_annotator.png",
+    "Images/Annotator - Detailed/annotation_turns_annotator.png",
+    "12. Media Manager - Detailed/Media Manager - Detailed.md",
+    "12. Media Manager - Detailed/Noise Processing Page.md",
+    "13. Annotator - Detailed",
+    "Images/Annotator - Detailed",
+    "12. Media Manager - Detailed/Initial Processing Page.md",
+    "11. Quality Checker - Detailed/Noise QC (QC2) Page.md",
+    "11. Quality Checker - Detailed/Initial QC (QC1) Page.md",
+    "12. Media Manager - Detailed/Dashboard.md",
+    "Images/Media Manager - Detailed",
+    "Images/Untitled.md",
+    "11. Quality Checker - Detailed/Quality Checker - Detailed.md",
+    "12. Media Manager - Detailed",
+    "11. Quality Checker - Detailed/Dashboard.md",
+    "4. Project Creation Wizard/Workflow Builder/Property Panel (Node Configuration).md",
+    "Images/Quality Checker - Detailed",
+    "2. User Roles & Responsibilities/Speaker (SP).md",
+    "10. Speaker - Detailed/Speaker - Detailed.md",
+    "11. Quality Checker - Detailed",
+    "10. Speaker - Detailed/Dashboard.md",
+    "10. Speaker - Detailed/Sessions Page.md",
+    "10. Speaker - Detailed/Onboarding Page.md",
+    "Images/Speaker - Detailed",
+    "10. Speaker - Detailed"
+  ]
+}

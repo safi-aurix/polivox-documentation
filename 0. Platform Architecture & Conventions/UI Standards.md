@@ -1,0 +1,3 @@
+- **Icons:** `lucide-react` only.
+- **Notifications:** `sonner` for toast messages (e.g., "Session Flagged Successfully").
+- **State Management:** Lifted React State. The `CreateProject` component owns the `nodes` and `edges` state, passing it down to the `WorkflowBuilder` component.

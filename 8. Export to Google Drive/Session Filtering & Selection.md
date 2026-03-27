@@ -1,0 +1,4 @@
+- Only sessions with 'ready-for-delivery' status are shown
+- Filter by project, category, or search by topic title/session ID
+- Checkbox selection per session with Select All / Deselect All options
+- Selected count displayed (e.g., '3 of 8 selected')
